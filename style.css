@@ -9,9 +9,12 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #091921;
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Blue_cursor.png) , default!important;
+  
 }
 body.light {
-  background: #73acff
+  background: #73acff;
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Navy_cursor.png) , default!important;
 }
 .clock {
   width: 350px;
@@ -135,6 +138,11 @@ body.light .sc:before {
   border-radius: 6px  6px 0 0;
 }
 
+body.light .toggleClass:hover {
+  
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Navy_pointer.png) , pointer!important;
+}
+
 .toggleClass {
   position: absolute;
   top: 30px;
@@ -146,9 +154,9 @@ body.light .sc:before {
   background: #73acff;
   color: #73acff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  cursor: pointer;
   display: flex;
   align-items: center;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Blue_pointer.png) , pointer!important;
 }
 .toggleClass:before {
   position: absolute;
@@ -160,6 +168,7 @@ body.light .sc:before {
 body.light .toggleClass {
   background: #091921;
   color: #091921;
+
 }
 
 /*667dimgrayhsl*/
@@ -168,3 +177,4 @@ body.light .toggleClass:before {
   content: 'Dark Mode';
   white-space: nowrap;
 }
+

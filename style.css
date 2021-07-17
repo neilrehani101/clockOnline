@@ -8,12 +8,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #091921;
+  background: #024;
   cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Blue_cursor.png) , default!important;
   
 }
 body.light {
-  background: #73acff;
+  background: #0af;
   cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Navy_cursor.png) , default!important;
 }
 .clock {
@@ -22,10 +22,10 @@ body.light {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #091921;
+  background-color: #024;
   background-image: url(clock.png);
   background-size: cover;
-  border: 4px solid #091921;
+  border: 4px solid #024;
   border-radius: 50%;
   box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
     inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3),
@@ -151,8 +151,8 @@ body.light .toggleClass:hover {
   height: 20px;
   font-size: 18px;
   border-radius: 50%;
-  background: #73acff;
-  color: #73acff;
+  background: #0af;
+  color: #0af;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
